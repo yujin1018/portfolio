@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+}
+
+nav{
+    background-color: pink;
+    display: flex;
+    padding-left: 20px;
+    height: 50px;
+    align-items: center;
+}
+nav div{
+    margin-right: 20px;
+    padding:10px;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif   
+}
+nav div:hover{
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+main{
+
+}
+
+.container{
+
+}
