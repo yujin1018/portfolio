@@ -2,6 +2,8 @@
 :root {
     /* App color */
     --color-primary:var(var(--color-black));
+    --color-primary-variant:var(--color-gray);
+    --color-accent-variant:var(var(--color-blue);)
     --color-accent:var(var(--color-blue));
     --color-text:var(--color-white);
 --color-white: #ffffff;
@@ -21,6 +23,7 @@
 
 body{
     font-family:'Open Sans', sans-serif;
+    margin: 0;
 }
 h1,h2,h3,p,ul{
     margin:0;
@@ -42,5 +45,51 @@ button{
 }
 
 button:focus{
-    outline: 1px solid var(--color-accent);
+    outline: 1px solid var(--color-orange);
+}
+
+/* Header */
+
+header{
+    background-color:var(--color-black);
+    position: fixed;
+    width: 100%;
+    padding: 1rem;
+    top:0;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.header_logo{
+    display: flex;
+    align-items: center;
+    gap:8px;
+}
+
+.header__logo_img{
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+}
+
+.header_logo_title{
+    font-size: 1.8rem;
+}
+
+.header_menu{
+    display: flex;
+    gap: 4px;
+}
+
+.header_menu_item{
+    padding: 8px 16px;
+}
+
+.header_menu_item:hover{
+    border-bottom: 1px solid var(--color-blue)
+}
+
+.header_menu_item.active{
+    border-radius: 4px;
+    border: 1px solid var(--color-blue)
 }
