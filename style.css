@@ -59,6 +59,7 @@ header{
     display: flex;
     justify-content:space-between;
     align-items: center;
+    z-index: 2;
 }
 .header_logo{
     display: flex;
@@ -92,4 +93,49 @@ header{
 .header_menu_item.active{
     border-radius: 4px;
     border: 1px solid var(--color-blue)
+}
+
+/* Home */
+
+#home{
+    text-align: center;
+    background-color: #050a13;
+    padding: 7rem;
+    color: var(--color-text)
+}
+.home__avatar{
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    object-fit:cover;
+    border: 3px solid var(--color-blue)
+}
+
+.home__title{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.home__title--strong{
+    color: var(--color-blue);
+}
+
+.home__description{
+    font-size: 1.3rem;
+
+}
+.home__contact{
+    color: var(--color-black);
+    display: inline-block;
+    background-color: var(--color-blue);
+    padding: 0.5rem 1rem;
+    margin: 2rem;
+    font-weight: bold;
+    border-radius: 4px;
+}
+.home__contact:hover{
+    color: var(--color-white);
+    background-color: transparent;
+    outline: 2px solid var(--color-blue);
+    
 }
