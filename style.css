@@ -105,7 +105,9 @@ header{
 }
 
 .header_logo_title{
-    font-size: 1.8rem;
+    font-size: 1.2rem;
+    position: relative;
+    bottom: 5px;
 }
 
 .header_menu{
@@ -396,6 +398,7 @@ header{
 .testimonial__bubble{
     padding: 1rem;
     border-radius: 8px;
+    box-shadow: 5px 5px 4px 4px lightgray;
 }
 
 .testimonial__bubble__name{

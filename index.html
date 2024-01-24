@@ -4,17 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <script async src="main.js"></script>
+    <script src="main.js" defer></script>
     <script src="https://kit.fontawesome.com/58f592055f.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/typeit@@{TYPEIT_VERSION}/dist/index.umd.js"></script>
+    <script src="type.js" defer></script>
     <link rel="shortcut icon" href="image/yujin.ico" type="image/x-icon">
-    <title>Yujin's Portfoilo</title>
+    <title>Linsay's Portfoilo</title>
 </head>
 <body>
     <!-- header -->
     <header class="header">
         <div class="header_logo">
             <img src="image/yujin.ico" alt="logo" class="header__logo_img">
-            <h1><a class="header_logo_title" href="#">Yujin</a></h1>
+            <h1><a class="header_logo_title" href="#">Lindsay</a></h1>
         </div>
         <nav class="header_nav">
             <ul class="header_menu">
@@ -32,14 +34,14 @@
         <!-- home -->
         <section id="home">
             <img class="home__avatar" src="image/yujin.png" alt="profile">
-            <h2 class="home__title">Hello<br/> I'm <strong class="home__title--strong">Yujin</strong></h2>
-            <p class="home__description">A software engineer currently residing in Tokoyo Japan</p>
+            <h2 class="home__title">Hello<br/> I'm <strong class="home__title--strong">Linsay</strong></h2>
+            <p class="home__description">I'm a markup coder aspiring to become a front-end engineer and currently residing in Tokyo.</p>
             <a class="home__contact" href="#contact">Contact me</a>
         </section>
         <!-- about -->
         <section id="about" class="section max-container">
             <h2 class="title">About me</h2>
-            <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem illum iusto cum rem blanditiis quo labore, dicta laborum eos hic quod soluta, veniam nam est saepe quasi eveniet dolore distinctio?</p>
+            <P class="description" style="font-size: 20px;">実務経験としてはマークアップ6ヶ月になりますが、</br>Javascriptと共にReact＆Rubyも１年間独学しました。</p>
             <ul class="majors">
                 <li class="major">
                     <i class="fa-brands fa-html5 major__icon"></i>
@@ -53,11 +55,11 @@
                 </li>
                 <li class="major">
                     <i class="fa-brands fa-react major__icon"></i>
-                    <p class="major__title">React</p>
+                    <p class="major__title">React&Ruby</p>
                     <p></p>
                 </li>
             </ul>
-            <ul class="jobs">
+            <!-- <ul class="jobs">
                 <li class="job">
                     <img src="image/jobs/jobs/google.png" alt="google header_logo_title">
                     <div>
@@ -72,39 +74,39 @@
                         <p class="job__period">2010 Jan ~ 2019 Sep</p>
                     </div>
                 </li>
-            </ul>
+            </ul> -->
         </section>
         <!-- skills -->
         <section id="skills" class="section">
             <div class="max-container">
                 <h2 class="title">My Skills</h2>
             <p class="description">Skills & Attributes</p>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium molestias ullam ad qui quam cum mollitia dolorum magnam quas impedit! Sapiente tenetur eaque voluptas voluptatem maiores minima aperiam, facilis dolorem.</p>
+            <p>独学＆実務で経験したスキル及びツールなどをまとめました。</p>
             <div class="skills">
                 <section class="skills__coding">
                     <h3 class="skills__title">Coding Skills</h3>
                     <ul>
-                        <li class="bar"><div class="bar-metadata"><span>HTML</span><span>98%</span></div>
-                            <div class="bar__bg"><div class="bar__value" style="width: 98%"></div></div>
-                        </li>
-                        <li class="bar">
-                            <div class="bar-metadata"><span>CSS</span><span>90%</span></div>
+                        <li class="bar"><div class="bar-metadata"><span>HTML</span> <span>90%</span></div>
                             <div class="bar__bg"><div class="bar__value" style="width: 90%"></div></div>
                         </li>
                         <li class="bar">
-                            <div class="bar-metadata"><span>Javascript</span><span>80%</span></div>
+                            <div class="bar-metadata"><span>CSS</span> <span>90%</span></div>
+                            <div class="bar__bg"><div class="bar__value" style="width: 90%"></div></div>
+                        </li>
+                        <li class="bar">
+                            <div class="bar-metadata"><span>Javascript</span> <span>60%</span></div>
                             <div class="bar__bg"><div class="bar__value" style="width: 80%"></div></div>
                         </li>
                         <li class="bar">
-                            <div class="bar-metadata"><span>React</span><span>80%</span></div>
+                            <div class="bar-metadata"><span>React&Typescript</span> <span>50%</span></div>
                             <div class="bar__bg"><div class="bar__value" style="width: 80%"></div></div>
                         </li>
                         <li class="bar">
-                            <div class="bar-metadata"><span>Node</span><span>70%</span></div>
+                            <div class="bar-metadata"><span>Next.js</span> <span>50%</span></div>
                             <div class="bar__bg"><div class="bar__value" style="width: 70%"></div></div>
                         </li>
                         <li class="bar">
-                            <div class="bar-metadata"><span>Ruby & Ruby on rails</span><span>70%</span></div>
+                            <div class="bar-metadata"><span>Ruby & Ruby on rails</span> <span>50%</span></div>
                             <div class="bar__bg"><div class="bar__value" style="width: 70%"></div></div>
                         </li>
                     </ul>
@@ -113,18 +115,18 @@
                     <h3 class="skills__title">Tools</h3>
                     <ul>
                         <li>Visual Studio Code</li>
-                        <li>IntelliJ</li>
-                        <li>Android Studio Code</li>
-                        <li>iOS development tools</li>
-                        <li>Sketch App</li>
+                        <li>Docker</li>
+                        <li>MySQL</li>
+                        <li>AWS</li>
                     </ul>
                 </section>
                 <section class="skills__etc">
                     <h3 class="skills__title">Etc</h3>
                     <ul>
                         <li>Git</li>
-                        <li>Scrum Master</li>
-                        <li>Math</li>
+                        <li>Github</li>
+                        <li>Slack</li>
+                        <li>Bootstrap</li>
                     </ul>
                 </section>
             </div>
@@ -137,65 +139,65 @@
             <p class="description">Projects</p>
             <ul class="categories">
                 <li><button class="category category--selected">All <span class="category__count">8</span></button></li>
-                <li><button class="category">Front-end <span class="category__count">5</span></button></li>
-                <li><button class="category">Back-end <span class="category__count">7</span></button></li>
-                <li><button class="category">Mobile <span class="category__count">4</span></button></li>
+                <li><button class="category">Javascript <span class="category__count">4</span></button></li>
+                <li><button class="category">React<span class="category__count">3</span></button></li>
+                <li><button class="category">Ruby<span class="category__count">1</span></button></li>
             </ul>
             <ul class="projects">
-                <li class="project"><a href="#" target="_blank">
+                <li class="project"><a href="https://github.com/yujin1018" target="_blank">
                     <img src="image/jobs/projects/project1.webp" alt="project1" class="project__img">
                     <div class="project__metadata"> 
-                        <h3>Project #1</h3>
-                        <p>Clone Coding with HTML, CSS</p>
+                        <h3>Portfoilo</h3>
+                        <p>HTML, CSS, Javascript</p>
                     </div>
                 </a></li>
-                <li class="project"><a href="#" target="_blank">
+                <li class="project"><a href="https://github.com/yujin1018" target="_blank">
                     <img src="image/jobs/projects/project2.webp" alt="project2" class="project__img">
                     <div class="project__metadata">
-                        <h3>Project #1</h3>
-                        <p>Clone Coding with HTML, CSS</p>
+                        <h3>Carrot Eating Game</h3>
+                        <p>HTML, CSS, Jacascript</p>
                     </div>
                 </a></li>
-                <li class="project"><a href="#" target="_blank">
+                <li class="project"><a href="https://github.com/yujin1018" target="_blank">
                     <img src="image/jobs/projects/project3.webp" alt="project3" class="project__img">
                     <div class="project__metadata">
-                        <h3>Project #1</h3>
-                        <p>Clone Coding with HTML, CSS</p>
+                        <h3>Korea Times</h3>
+                        <p>HTML, CSS, Javascript</p>
                     </div>
                 </a></li>
-                <li class="project"><a href="#" target="_blank">
+                <li class="project"><a href="https://github.com/yujin1018" target="_blank">
                     <img src="image/jobs/projects/project4.webp" alt="project4" class="project__img">
                     <div class="project__metadata">
-                        <h3 class="project__metadata__title">Project #1</h3>
-                        <p>Clone Coding with HTML, CSS</p>
+                        <h3 class="project__metadata__title">Netflix</h3>
+                        <p>HTML, CSS, React</p>
                     </div>
                 </a></li>
-                <li class="project"><a href="#" target="_blank">
+                <li class="project"><a href="https://github.com/yujin1018" target="_blank">
                     <img src="image/jobs/projects/project5.webp" alt="project5" class="project__img">
                     <div class="project__metadata">
-                        <h3 class="project__metadata__title">Project #1</h3>
-                        <p>Clone Coding with HTML, CSS</p>
+                        <h3 class="project__metadata__title">Rock, Paper, Scissors Game</h3>
+                        <p>HTML, CSS, Jacascript</p>
                     </div>
                 </a></li>
-                <li class="project"><a href="#" target="_blank">
+                <li class="project"><a href="https://github.com/yujin1018" target="_blank">
                     <img src="image/jobs/projects/project6.webp" alt="project6" class="project__img">
                     <div class="project__metadata">
-                        <h3 class="project__metadata__title">Project #1</h3>
-                        <p>Clone Coding with HTML, CSS</p>
+                        <h3 class="project__metadata__title">Shopping Mall</h3>
+                        <p>HTML, CSS, React</p>
                     </div>
                 </a></li>
-                <li class="project"><a href="#" target="_blank">
+                <li class="project"><a href="https://github.com/yujin1018" target="_blank">
                     <img src="image/jobs/projects/project7.webp" alt="project7" class="project__img">
                     <div class="project__metadata">
-                        <h3 class="project__metadata__title">Project #1</h3>
-                        <p>Clone Coding with HTML, CSS</p>
+                        <h3 class="project__metadata__title">Clone Coding Nordbird</h3>
+                        <p>HTML,CSS, React&Typescript, Next.js</p>
                     </div>
                 </a></li>
-                <li class="project"><a href="#" target="_blank">
+                <li class="project"><a href="https://github.com/yujin1018" target="_blank">
                     <img src="image/jobs/projects/project8.webp" alt="project8" class="project__img">
                     <div class="project__metadata">
-                        <h3 class="project__metadata__title">Project #1</h3>
-                        <p>Clone Coding with HTML, CSS</p>
+                        <h3 class="project__metadata__title">TO do List</h3>
+                        <p>HTML, CSS, Ruby& Ruby on rails </p>
                     </div>
                 </a></li>
             </ul>
@@ -204,26 +206,32 @@
         </section>
         <!-- testimonial -->
         <section id="testimonial" class="section max-container">
-            <h2 class="title">Testimonial</h2>
-            <p class="description">See what they say about me</p>
+            <h2 class="title">Q&A</h2>
+            <p class="description">Please ask about what you wander</p>
             <ul class="testimonials">
                 <li class="testimonial"><img  class="testimonial__img" src="image/jobs/testimonials/people1.webp" alt="people1">
-                <div> class="testimonial__bubble"
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus, veritatis! Velit quam facilis qui quas fugiat sed enim ea veritatis laboriosam ipsam. Animi ex, quaerat quae eos consectetur ullam reiciendis.</p>
-                    <p><a class="testimonial__bubble__name" href="#">James Kim</a>/Google</p>
+                <div class="testimonial__bubble"> 
+                    <p>元々エンジニア出身だったですか？</p>
                 </div>
             </li>
-                <li class="testimonial"><img  class="testimonial__img" src="/image/jobs/testimonials/people2.webp" alt="people2">
+                <li class="testimonial"><img  class="testimonial__img" src="/image/yujin.png" alt="people2">
                     <div class="testimonial__bubble">
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur, magnam minima esse optio, officiis eveniet, commodi quo assumenda eos tenetur impedit. Maiores ducimus non tenetur illum in quibusdam, ipsum incidunt.</p>
-                        <p><a class="testimonial__bubble__name" href="#">Anna Jin</a>/Samsung</p>
+                        <p>いいえ、元々は韓国で全然違う業界で働いてましたが、<br>
+                            4年前にIT営業を始めてプログラミングに興味を持って独学で勉強を始めました。<br>
+                            自分の得意なところはマークアップですが、フロントエンジニアになりたいので、<br>
+                            React＆Typescriptを上手にやりこなせるため勉強中です。<br>
+                            あとバックエンドの知識を増やしたかったので、<br>
+                            RubyとRuby on railsも１年間独学しました。
+                        </p>
+                        <!-- <p><a class="testimonial__bubble__name" href="#">Anna Jin</a>/Samsung</p> -->
                     </div>
                 </li>
-                <li class="testimonial">
+                <!-- <li class="testimonial">
                     <img  class="testimonial__img" src="image/jobs/testimonials/people3.webp" alt="people3">
                     <div class="testimonial__bubble">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim nam vel fugiat, eveniet laudantium minima incidunt sed, omnis iste ipsam voluptate excepturi repellendus. A, dolorem odit nobis architecto esse id?</p>
-                        <p><a class="testimonial__bubble__name" href="#">Anna Jin</a>/Samsung</p>
+                        <p>自分の得意なところはマークアップですが、フロントエンジニアになりたいので、React＆Typescriptを上手にやりこなせるため勉強中です。</p>
+                        <p>あとバックエンドの知識を増やしたかったので、RubyとRuby on railsも１年間独学しました。</p> -->
+                        <!-- <p><a class="testimonial__bubble__name" href="#">Anna Jin</a>/Samsung</p> -->
                     </div>
                 </li>
             </ul>
@@ -242,9 +250,9 @@
             <p class="description">eugene2762@gmail.com</p>
             <ul class="contact__links">
                 <li><a class="contact__link" href="https://github.com/yujin1018" title="my github link" target="_blank"><i class="fa-brands fa-github"></i></a></li>
-                <li><a class="contact__link" href="https://github.com/yujin1018" title="my linkedin link" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
+                <!-- <li><a class="contact__link" href="https://github.com/yujin1018" title="my linkedin link" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li> -->
             </ul>
-            <p>Dream Coding Ellie -All rights reserved</p>  
+            <p>Lindsay.S -All rights reserved</p>  
         </div>  
     </footer>
 </body>
