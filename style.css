@@ -410,7 +410,7 @@ header{
     margin-bottom: 2rem;
 }
 
-.testimonial:nth-child(even) .testimonial__img{
+.testimonial:nth-child(2).testimonial__img{
     order: 1;
 }
 .testimonial__img{
