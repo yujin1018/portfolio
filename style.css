@@ -134,7 +134,7 @@ header{
     text-align: center;
     background-color:var(--color-black);
     padding: 7rem;
-    color: var(--color-text)
+    color: var(--color-text);
 }
 .home__avatar{
     border-radius: 50%;
@@ -171,6 +171,12 @@ header{
     background-color: transparent;
     outline: 2px solid var(--color-blue);
     
+}
+.home--clear{
+    opacity:0
+}
+.home--dark{
+    opacity:1
 }
 
 /* About */
@@ -445,7 +451,7 @@ header{
 
 @media screen and (max-width:768px) {
     .section{
-        padding: 2rem 2rem;
+        padding: 3rem 2rem;
     }
     .title{
         font-size: 2rem;
