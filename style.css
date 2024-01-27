@@ -77,7 +77,7 @@ button:focus{
 /* Header */
 
 header{
-    background-color:transparent;
+    background-color:var(--color-black);
     position: fixed;
     width: 100%;
     padding: 1rem;
