@@ -27,4 +27,9 @@ document.addEventListener('scroll',()=>{
     }
 })
 
-
+// Navbar toggle btn 클릭 처리
+const navbarMenu = document.querySelector('.header_menu')
+const navbarToggle = document.querySelector('.header__toggle');
+navbarToggle.addEventListener('click',()=>{
+    navbarMenu.classList.toggle('open');
+})
