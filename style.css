@@ -425,11 +425,16 @@ header{
     box-shadow: 5px 5px 4px 4px lightgray;
 }
 
+/* .testimonial__bubble:nth-child(2){
+    width: 850px;
+} */
+
 .testimonial__bubble__name{
     color: var(--color-blue);
     font-weight: bold;
     filter: brightness(70%);
 }
+
 
 /* Arrow up */
 .arrow-up{
@@ -558,7 +563,5 @@ header{
     .header_nav{
         width: 100%;
     }
-    .testimonial__bubble>p:nth-child(2){
-        font-size: 12px;
-    }
+
 }
