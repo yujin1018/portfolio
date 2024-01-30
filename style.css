@@ -149,8 +149,29 @@ header{
 #home{
     text-align: center;
     background-color:var(--color-black);
-    padding: 7rem;
+    padding:7rem 7rem 0 7rem;
     color: var(--color-text);
+    position: re;
+}
+.home__divider {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.home__divider svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+}
+
+.home__divider .shape-fill {
+    fill: #4B1AA7;
 }
 .home__avatar{
     border-radius: 50%;
@@ -250,7 +271,29 @@ header{
 
 #skills{
     background-color: var(--color-gray);
-    color: var(--color-white)
+    color: var(--color-white);
+    position:relative;
+}
+
+.custom-shape-divider-top-1706541996 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-top-1706541996 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 36px;
+}
+
+.custom-shape-divider-top-1706541996 .shape-fill {
+    fill: #9792A1;
 }
 
 .skills{
@@ -407,6 +450,7 @@ header{
 .testimonials{
     margin: 3rem;
 }
+
 .testimonial{
     display: flex;
     gap: 2rem;
@@ -440,6 +484,8 @@ header{
 }
 
 
+
+
 /* Arrow up */
 .arrow-up{
     background-color: var(--color-black);
@@ -460,6 +506,7 @@ header{
 #contact{
     background-color: var(--color-black);
     color: var(--color-white);
+    position: relative;
 }
 
 .contact__links{
